@@ -1,0 +1,49 @@
+body,html,div, button {
+    margin: 0;
+    padding: 0;
+}
+
+.main {  
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputx{
+    margin-left: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input{
+    width: 200px;
+}
+
+.buttons {
+    display: flex;
+}
+
+
+button{
+    height: 30px;
+    width: 40px;
+    margin-bottom: 16px;
+}
+
+#plus {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.long{
+    height: 80px;
+    width:40px;
+    margin-bottom: 12px;
+}
+
+.medium {
+    height: 123px;
+    width: 40px;
+}
